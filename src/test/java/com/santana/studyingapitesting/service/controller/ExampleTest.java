@@ -9,7 +9,7 @@ public class ExampleTest extends ServiceTestBase {
     public String prefix = "/v2/..";
 
     @Test
-    public void try_to_create_a_new_user_without_authenticate (){
+    public void example_test (){
         given().
                 header("Accept", "application/json").
                 header("Content-Type", "application/json").
